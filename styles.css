@@ -1,0 +1,165 @@
+body{
+    margin: 0px;
+    padding:0px;
+    font-family: sans-serif;
+    /* font-size: 18; */
+}
+
+@media (max-width: 768px) {
+    body {
+      font-size: 28px;
+       /* Replace with your desired color */
+    }
+  }
+  #mobile-font {
+    font-size: 26px;
+    /* other font properties */
+  }
+h1 ,h2{
+    text-align:center;
+    color:blue;
+    font-family:'Times New Roman', Times, serif;
+}
+#navbar{
+    padding: 6px;
+    margin: 4px;
+    background-color: rgb(215, 223, 157);
+    display:flex;
+    
+}
+#logo{
+    height: 50px;
+    border: 30px;
+}
+#about{
+    display: flex;
+
+    justify-content: center;
+    
+}
+#Skills{
+    padding: 20px;
+    width: 50%;
+}
+#Projects{
+    padding: 20px;
+    padding-left: 18px;
+    width: 50%;
+    border-left-width:3px;
+    border-right-width:0px;
+    border-top-width:0px;
+    border-bottom-width:0px;
+    border-style:dashed;
+    border-color: rgb(180, 180, 180);
+}
+@media screen and (max-width:760px)
+{
+    #projects{
+        font-size: 20px;
+        height: 500px;
+    }
+}
+@media screen and (min-width:760px)
+{
+#para{
+    padding: 30px;
+    text-align: center;
+    background-color: beige;
+   line-height: 1.4;
+   margin-bottom: 2px;
+}
+}
+@media screen and (max-width:560px)
+{
+    #skills{
+        font-size: 28px;
+
+    }
+    p{
+        font-size: 26px;
+    }
+    #about{display:inline;
+
+        justify-content:right;
+        
+    }
+}
+@media screen and (max-width:760px)
+{
+    .text{
+      font-size: 26px;
+    }
+}
+@media only screen and (max-width: 768px) {
+     {
+      font-size: 26px;
+    }
+  }
+  
+.location{
+    color:rgb(64, 6, 6);
+}
+a{
+    text-decoration: none;
+    
+}
+a:hover{
+    color: rgb(163, 164, 226);
+}
+#edu{
+    background-color: beige;
+    display: flex;
+    
+}
+
+#line{
+    width: 2%;
+    background-color: black;
+}
+#cou{
+    list-style: none;
+    width: 25%;
+}
+#teja{
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 50%;    
+    margin-left: 0px;
+    height: 50px;
+    padding-left: 10px;
+    background-color: rgb(169, 221, 177);
+}
+
+#details{
+    font-size: small;
+    text-align: right;
+    width: 40%;
+}
+#cer{
+    text-align: center;
+    margin: 10px 60px auto 60px;
+    background-color: lightgrey;
+    padding: 10px;
+}
+#educ{
+    width:fit-content;
+    border:1px solid grey;
+    width: auto;
+    /* border-collapse:collapse; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cor-head th{
+    border:1px solid grey;
+   padding:5px;
+   background-color: rgb(194, 245, 228);
+}
+.cou-data th{
+    text-align: left;
+    border:1px solid grey;
+    padding:5px;
+}
+#educ tr:nth-child(even){
+    background-color: rgb(225, 225, 225);
+}

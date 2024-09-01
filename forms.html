@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="styleform.css">
+
+<div id="aform">
+    <h2>Form</h2>
+    <form id="detail-form">
+        <div id="form-group">
+            <label for id="name">Full name:</lable><br>
+            <input type="text" id="name" name="full name" required>
+
+        </div>
+        <div id="form-group">
+            <label for id="email">E-mail :</label><br>
+            <input type="email" id="email" name="email" required>
+
+        </div>
+         <div id="form-group">
+            <label for id="phone">Phone No: </label><br>
+            <input type="tel" id="phone" name="phone">
+        </div>
+        <div id="form-group">
+            <label for id="date">date of birth: </label><br>
+            <input type="date" id=date" name="date">
+        </div>
+
+        <div id="form-group">
+            <label for id="phone">Position applied for</label><br>
+            <select id="position" name="position applied" >
+                <option value="">select position</option>
+                <option value="full">Fullstack</option>
+                <option value="data">data science</option>
+                <option value="java">Java</option>
+            </select>
+        </div>
+        <div id="form-group"> 
+            <label for id="file">Upload Resume</label><br>
+            <input type="file" id="file" name="file" >
+        </div>
+        <div class="form-group">
+            <label for="coverletter">Cover Letter</label><br>
+            <textarea id="coverletter" name="coverletter" rows="5" required placeholder="Explain what makes you suitable for the job.."></textarea>
+        </div>
+        <div class="form-group">
+            <label for="terms">
+                <input type="checkbox" id="terms" name="terms" required>
+                I agree to the terms and conditions
+            </label>
+        </div id="form-group">
+        <div class="form-group">
+            <input type="submit" value="Submit">
+        </div>
+
+    </form>
+</div>
